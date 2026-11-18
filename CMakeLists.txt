@@ -114,7 +114,7 @@ if(CMAKE_BUILD_TYPE AND CMAKE_BUILD_TYPE MATCHES "^[Dd][Ee][Bb][Uu][Gg]$")
 	set(PVZ_DEBUG_DEFAULT ON)
 else()
 	set(WIN_CONSOLE_DEFAULT OFF)
-	set(PVZ_DEBUG_DEFAULT OFF)
+	set(PVZ_DEBUG_DEFAULT ON)
 endif()
 
 option(PVZ_DEBUG "Enable PVZ_DEBUG macro to enable cheats, hidden features, etc." ${PVZ_DEBUG_DEFAULT})
