@@ -121,7 +121,7 @@ LawnApp::LawnApp()
 	mSuperMowerMode = false;
 	mFutureMode = false;
 	mPinataMode = false;
-	mDanceMode = true;
+	mDanceMode = false;
 	mDaisyMode = false;
 	mSukhbirMode = false;
 	mGameScene = GameScenes::SCENE_LOADING;
@@ -144,7 +144,7 @@ LawnApp::LawnApp()
 	mCommitDate = PVZP_COMMIT_DATE;
 	std::string aTitleName = "PvZ Portable";
 	mTitle = aTitleName;
-	mCustomCursorsEnabled = true;
+	mCustomCursorsEnabled = false;
 	mPlayerInfo = nullptr;
 	mLastLevelStats = std::make_unique<LevelStats>();
 	mFirstTimeGameSelector = true;
