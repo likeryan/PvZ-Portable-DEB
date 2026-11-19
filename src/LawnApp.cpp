@@ -160,7 +160,7 @@ LawnApp::LawnApp()
 	mCompletedLoadingThreadTasks = 0;
 	mProfileMgr = std::make_unique<ProfileMgr>();
 	mRegisterResourcesLoaded = false;
-	mCheatKeys = true;
+	mCheatKeys = false;
 	mCrazyDaveReanimID = ReanimationID::REANIMATIONID_NULL;
 	mCrazyDaveState = CrazyDaveState::CRAZY_DAVE_OFF;
 	mCrazyDaveBlinkCounter = 0;
