@@ -364,12 +364,7 @@ void TitleScreen::Update()
 		mBarVel += aDiff * abs(aDiff) * aAcceleration;
 
 		float aMinVelocity = PvzpAnimateCurveFloatTime(0, 1, aLoadingPercent, 0.2f, 0.01f, PvzpCurves::CURVE_LINEAR);
-		float aMaxVelocity = 2;
-		if (mApp->mCheatKeys)
-		{
-			aMinVelocity = 0;
-			aMaxVelocity = 100;
-		}
+		float aMaxVelocity = 2
 
 		if (mBarVel < aMinVelocity)
 		{
