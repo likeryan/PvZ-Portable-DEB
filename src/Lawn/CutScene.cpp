@@ -1529,7 +1529,7 @@ bool CutScene::IsCutSceneOver()
 
 void CutScene::ZombieWonClick()
 {
-	if (IsCutSceneOver() || mApp->mCheatKeys)
+	if (IsCutSceneOver() ||
 	{
 		mApp->EndLevel();
 	}
@@ -1661,7 +1661,7 @@ void CutScene::MouseDown([[maybe_unused]] int theX, [[maybe_unused]] int theY)
 		{
 			AdvanceCrazyDaveDialog(false);
 		}
-		else if (mApp->mCheatKeys)
+		else if (false && mApp->mCheatKeys)
 		{
 			CancelIntro();
 		}
