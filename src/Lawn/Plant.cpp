@@ -130,7 +130,7 @@ void Plant::PlantInitialize(int theGridX, int theGridY, SeedType theSeedType, Se
 	mSquished = false;
 	mSeedType = theSeedType;
 	mImitaterType = theImitaterType;
-	mPlantHealth = 300;
+	mPlantHealth = 999999999;
 	mDoSpecialCountdown = 0;
 	mDisappearCountdown = 200;
 	mStateCountdown = 0;
